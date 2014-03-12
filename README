@@ -1,0 +1,25 @@
+This is a template project to aid in getting started quickly with Java projects.
+It uses Gradle as the build system. You will have to make sure that you have Gradle installed
+and that it is present in your PATH.
+
+To open the project in IntelliJ IDEA
+1. Choose 'Import Project...' from the File menu
+2. Select the file build.gradle file in the root of this project
+3. Choose all the default options in the next screens.
+4. You may have to choose a JDK before you can create the IDEA project. Choose a Java 7 JDK and finish.
+
+To run tests from the command line, type
+
+gradle clean test
+
+You can find test reports under target/test-reports in the root directory of the project
+To assemble an executable jar, type
+
+gradle clean installApp
+
+You can find the executable jar for the project in the build/install directory
+
+To run the application, type
+
+gradle run
+
